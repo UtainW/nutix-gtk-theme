@@ -1,16 +1,21 @@
+/* desktop itens */
+@define-color desktop_item_fg #eeeeee;
+@define-color desktop_item_selected_fg @theme_selected_fg_color;
+@define-color desktop_item_text_shadow alpha(#ccc, 0.8);
+
 /* default color scheme */
-@define-color bg_color #dfdfdf;
+@define-color bg_color #dedede;
 @define-color fg_color #555555;
 @define-color base_color #f9f9f9;
 @define-color text_color #333333;
-@define-color selected_bg_color #23967b;
+@define-color selected_bg_color #d64937;
 @define-color selected_fg_color #f9f9f9;
 @define-color tooltip_bg_color #234047;
 @define-color tooltip_fg_color #dcdcdc;
 
 /* dark color scheme */
 @define-color dark_bg_color #234047;
-@define-color dark_fg_color #eee;
+@define-color dark_fg_color #dcdcdc;
 
 /* colormap actually used by the theme, to be overridden in other css files */
 @define-color theme_bg_color @bg_color;
@@ -24,7 +29,7 @@
 
 /* shadow effects */
 @define-color light_shadow #fff;
-@define-color dark_shadow #000;
+@define-color dark_shadow #222;
 
 /* misc colors used by gtk+ */
 @define-color info_fg_color rgb (58, 135, 173);
@@ -45,8 +50,8 @@
 @define-color titlebar_fg_color @dark_fg_color;
 @define-color menubar_bg_color @dark_bg_color;
 @define-color menubar_fg_color @dark_fg_color;
-@define-color toolbar_bg_color @dark_bg_color;
-@define-color toolbar_fg_color @dark_fg_color;
+@define-color toolbar_bg_color @theme_bg_color;
+@define-color toolbar_fg_color @theme_fg_color;
 @define-color menu_bg_color @dark_bg_color;
 @define-color menu_fg_color @dark_fg_color;
 @define-color panel_bg_color @dark_bg_color;
@@ -83,4 +88,3 @@
 @import url("apps/nemo.css");
 @import url("apps/synaptic.css");
 @import url("apps/lightdm-gtk-greeter.css");
-@import url("apps/scrollbar.css");
