@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Nutix
+Comment=A modern flat theme based on Numix and Royal
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Nutix
+MetacityTheme=Nutix
+ButtonLayout=:minimize,maximize,close
